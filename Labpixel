@@ -1,0 +1,8 @@
+unzip LabPixel.zip
+cd LabPixel
+git init
+git remote add origin https://github.com/ton-utilisateur/LabPixel.git
+git add .
+git commit -m "Initial commit with GitHub Actions"
+git branch -M main
+git push -u origin main
