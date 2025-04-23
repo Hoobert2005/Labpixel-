@@ -3,64 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="#FFFFFF"
     android:padding="16dp">
 
-    <!-- Logo de l'application -->
-    <ImageView
-        android:id="@+id/logo_image"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher"
-        android:contentDescription="Logo LabPixel"
-        android:layout_marginBottom="24dp"/>
-
-    <!-- Titre de l'application -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bienvenue sur LabPixel"
-        android:textSize="24sp"
-        android:textColor="#000000"
-        android:layout_marginBottom="16dp"
-        android:textStyle="bold"/>
-
-    <!-- Description de l'application -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LabPixel vous permet de créer et modifier des images en toute simplicité."
-        android:textSize="16sp"
-        android:textColor="#666666"
-        android:layout_marginBottom="32dp"
-        android:gravity="center"/>
-
-    <!-- Boutons d'action -->
+    <!-- Button for editing image -->
     <Button
-        android:id="@+id/button_edit"
-        android:layout_width="wrap_content"
+        android:id="@+id/edit_image_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Modifier une Image"
-        android:layout_marginBottom="16dp"
-        android:onClick="onEditClick"/>
+        android:text="Edit Image" />
 
+    <!-- Button for viewing projects -->
     <Button
-        android:id="@+id/button_view"
-        android:layout_width="wrap_content"
+        android:id="@+id/view_projects_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voir les Projets"
-        android:layout_marginBottom="16dp"
-        android:onClick="onViewClick"/>
+        android:text="View Projects" />
 
-    <!-- Lien pour accéder aux paramètres -->
-    <TextView
-        android:layout_width="wrap_content"
+    <!-- Button for settings -->
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Paramètres"
-        android:textColor="#00796B"
-        android:textSize="14sp"
-        android:layout_marginTop="24dp"
-        android:onClick="onSettingsClick"/>
+        android:text="Settings" />
+
 </LinearLayout>
 
