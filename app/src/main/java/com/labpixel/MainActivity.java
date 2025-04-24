@@ -4,46 +4,38 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button editButton, viewProjectsButton, settingsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialisation des boutons
-        editButton = findViewById(R.id.edit_image_button);
-        viewProjectsButton = findViewById(R.id.view_projects_button);
-        settingsButton = findViewById(R.id.settings_button);
+        Button editButton = findViewById(R.id.edit_button);
+        Button projectsButton = findViewById(R.id.projects_button);
+        Button settingsButton = findViewById(R.id.settings_button);
 
-        // OnClickListener pour EditImageActivity
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, EditImageActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(MainActivity.this, EditImageActivity.class));
             }
         });
 
-        // OnClickListener pour ViewProjectsActivity
-        viewProjectsButton.setOnClickListener(new View.OnClickListener() {
+        projectsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ViewProjectsActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(MainActivity.this, ViewProjectsActivity.class));
             }
         });
 
-        // OnClickListener pour SettingsActivity
         settingsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
             }
         });
     }

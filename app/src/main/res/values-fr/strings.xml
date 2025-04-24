@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LabPixel</string>
+    <string name="edit_image">Éditer une image</string>
+    <string name="view_projects">Voir les projets</string>
+    <string name="settings">Paramètres</string>
+</resources>
+

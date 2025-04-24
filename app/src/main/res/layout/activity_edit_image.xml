@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:orientation="vertical"
+    android:background="#ECECEC">
 
-    <TextView
-        android:id="@+id/edit_image_text"
-        android:layout_width="wrap_content"
+    <!-- Zone de travail -->
+    <FrameLayout
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:layout_margin="8dp" />
+
+    <!-- Barre d’outils -->
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Éditeur d'image"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:weightSum="4"
+        android:elevation="4dp">
+
+        <Button
+            android:id="@+id/btn_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Texte" />
+
+        <Button
+            android:id="@+id/btn_image"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Image" />
+
+        <Button
+            android:id="@+id/btn_shape"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Forme" />
+
+        <Button
+            android:id="@+id/btn_background"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Fond" />
+    </LinearLayout>
 </LinearLayout>
+

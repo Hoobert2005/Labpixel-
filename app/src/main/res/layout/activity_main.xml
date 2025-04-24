@@ -3,28 +3,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:background="#FFFFFF"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
 
-    <!-- Button for editing image -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="32dp" />
+
     <Button
         android:id="@+id/edit_image_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Edit Image" />
+        android:text="@string/edit_image"
+        android:drawableStart="@drawable/ic_edit"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
 
-    <!-- Button for viewing projects -->
     <Button
         android:id="@+id/view_projects_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Projects" />
+        android:text="@string/view_projects"
+        android:drawableStart="@drawable/ic_folder"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
 
-    <!-- Button for settings -->
     <Button
         android:id="@+id/settings_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Settings" />
-
+        android:text="@string/settings"
+        android:drawableStart="@drawable/ic_settings"
+        android:padding="16dp" />
 </LinearLayout>
 
