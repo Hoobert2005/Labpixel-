@@ -3,7 +3,7 @@
     <string name="edit_image_button">Modifier l'image</string>
     <string name="view_projects_button">Voir les projets</string>
     <string name="settings_button">Paramètres</string>
-    <string name="app_description">Application de modification d'image et de gestion de projets.</string>
+    <string name="app_description">Application d'edition graphique.</string>
     <string name="welcome_message">Bienvenue dans LabPixel !</string>
     <!-- Ajoute ici d'autres chaînes en français -->
 </resources>
