@@ -1,7 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Description de l'application -->
     <string name="app_name">LabPixel</string>
-    <string name="edit_image">Modifye imaj</string>
-    <string name="view_projects">Gade pwojè yo</string>
-    <string name="settings">Anviwònman</string>
+    <string name="app_description">Aplikasyon mwen an &amp; super !</string>
+    
+    <!-- Boutons -->
+    <string name="edit_image_button">Edité imaj la</string>
+    <string name="view_projects_button">Wè pwojè yo</string>
+    <string name="settings_button">Paramèt</string>
+
+    <!-- Autres chaînes -->
+    <string name="welcome_message">Byenveni sou LabPixel, yon editè imaj pisan ak fasil pou itilize !</string>
+    <string name="app_version">Vèsyon 1.0</string>
 </resources>
 
