@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Description de l'application -->
     <string name="app_name">LabPixel</string>
-    <string name="app_description">Mon application d'édition d'image simple et puissante</string>
+    <string name="app_description">Mon application de retouche photo inspirée de PixelLab</string>
 
     <!-- Boutons -->
     <string name="edit_image_button">Éditer l'image</string>
@@ -10,7 +9,7 @@
     <string name="settings_button">Paramètres</string>
 
     <!-- Autres chaînes -->
-    <string name="welcome_message">Bienvenue sur LabPixel !</string>
+    <string name="welcome_message">Bienvenue sur LabPixel</string>
     <string name="app_version">Version 1.0</string>
 </resources>
 
