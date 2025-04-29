@@ -5,7 +5,7 @@
     <string name="app_description">Aplikasyon mwen an &amp; super !</string>
     
     <!-- Boutons -->
-    <string name="edit_image_button">Edité imaj la</string>
+    <string name="btn_edit_image">Edité imaj la</string>
     <string name="view_projects_button">Wè pwojè yo</string>
     <string name="settings_button">Paramèt</string>
 

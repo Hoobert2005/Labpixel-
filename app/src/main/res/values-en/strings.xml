@@ -5,7 +5,7 @@
     <string name="app_description">My app &amp; super!</string>
     
     <!-- Boutons -->
-    <string name="edit_image_button">Edit Image</string>
+    <string name="btn_edit_image">Edit Image</string>
     <string name="view_projects_button">View Projects</string>
     <string name="settings_button">Settings</string>
 

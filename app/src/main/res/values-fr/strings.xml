@@ -1,7 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LabPixel</string>
-    <string name="edit_image">Éditer une image</string>
-    <string name="view_projects">Voir les projets</string>
-    <string name="settings">Paramètres</string>
+    <string name="app_description">Mon application de retouche photo</string>
+ 
+ <!-- boutons -->
+    <string name="btn_edit_image">Éditer l'image</string>
+    <string name="view_projects_button">Voir les projets</string>
+    <string name="settings_button">Paramètres</string>
+
+<!-- autres chaines --> 
+    <string name="welcome_message">Bienvenue sur LabPixel</string>
+    <string name="app_version">Version 1.0</string>
 </resources>
 
