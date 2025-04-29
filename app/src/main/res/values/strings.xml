@@ -4,7 +4,7 @@
     <string name="app_description">Mon application de retouche photo</string>
 
     <!-- Boutons -->
-    <string name="edit_image_button">Éditer l'image</string>
+    <string name="btn_edit_image">Éditer l'image</string>
     <string name="view_projects_button">Voir les projets</string>
     <string name="settings_button">Paramètres</string>
 
