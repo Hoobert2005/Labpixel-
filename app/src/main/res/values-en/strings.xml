@@ -2,14 +2,14 @@
 <resources>
     <!-- Description de l'application -->
     <string name="app_name">LabPixel</string>
-    <string name="app_description">My app &amp; super!</string>
-    
+    <string name="app_description">My app &amp; super</string>
+
     <!-- Boutons -->
     <string name="btn_edit_image">Edit Image</string>
     <string name="view_projects_button">View Projects</string>
     <string name="settings_button">Settings</string>
 
     <!-- Autres chaînes -->
-    <string name="welcome_message">Welcome to LabPixel, a powerful and easy-to-use image editor!</string>
+    <string name="welcome_message">Welcome to LabPixel</string>
     <string name="app_version">Version 1.0</string>
 </resources>
